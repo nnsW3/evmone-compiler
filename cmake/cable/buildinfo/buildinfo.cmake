@@ -9,7 +9,7 @@ string(TOLOWER "${COMPILER_ID}" COMPILER_ID)
 string(TOLOWER "${BUILD_TYPE}" BUILD_TYPE)
 string(TIMESTAMP TIMESTAMP)
 
-# Read the git info from a file. The gitinfo is suppose to update the file
+# Read the git info from a file. The gitinfo is supposed to update the file
 # only if the information has changed.
 file(STRINGS ${OUTPUT_DIR}/gitinfo.txt gitinfo)
 list(LENGTH gitinfo gitinfo_len)
