@@ -8,7 +8,7 @@
 
 # Cable version.
 #
-# This is internal variable automatically updated with external tools.
+# This is an internal variable automatically updated with external tools.
 # Use CABLE_VERSION variable if you need this information.
 set(version 0.5.0)
 
@@ -22,7 +22,7 @@ endif()
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR})
 
 if(CABLE_VERSION)
-    # Some other instance of Cable has been initialized in the top project.
+    # Some other instances of Cable has been initialized in the top project.
 
     # Mark this project as nested.
     set(PROJECT_IS_NESTED TRUE)
