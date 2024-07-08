@@ -68,7 +68,7 @@ block boundary.
 ## Algorithm
 
 The algorithm for calculating gas and checking stack requirements pre-computes
-the values for basic instruction blocks and during execution the checks 
+the values for basic instruction blocks and during the execution of the checks 
 are done only once per instruction block.
 
 ### Collecting requirements for basic blocks
